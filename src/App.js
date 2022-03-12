@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from './components/Header';
 import About from './components/About';
+import Tech from './components/Tech';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <main>
         <About />
+        <Tech />
       </main>
     </body>
   );
