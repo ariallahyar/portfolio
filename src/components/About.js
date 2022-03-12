@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
 	return (
-		<section class="section">
+		<section className="section">
 			<div className="container">
 				<p><span className="intro-line"></span><span className="intro-dot"></span>
 					&nbsp;Hello, I'm Arianna - a curious problem solver with a passion for urban technology, liveable cities and

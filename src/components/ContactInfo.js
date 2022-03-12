@@ -4,8 +4,8 @@ import './ContactInfo.css'
 const ContactInfo = () => {
 	return (
 		<footer>
-			<div class="container">
-				<div class="contact-text-group">
+			<div className="container">
+				<div className="contact-text-group">
 					<h2>Get in touch</h2>
 					<p>Arianna Allahyar</p>
 						<a href="mailto:anallahyar@gmail.com">Email</a>
