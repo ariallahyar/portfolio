@@ -1,0 +1,62 @@
+.project {
+	margin-top: 32px;
+}
+
+.project-image-group {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.project-image-group h2 {
+	color: #fff;
+	background-color: transparent;
+	position: absolute;
+	align-self: center;
+	font-weight: 700;
+	margin: 0;
+}
+
+.project-overlay {
+	background-color: rgba(32,54,63,0.3);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.project-text-group p {
+	font-family: 'Roboto', sans-serif;
+	margin: 7px auto;
+}
+
+.project-tag-group {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.project-tag-group p {
+	color: #fff;
+	background-color: var(--secondary);
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	line-height: 12px;
+	font-weight: 500;
+	padding: 5px;
+	margin: 0;
+}
+
+.project-image-group:hover .project-overlay, .project-image-group:hover .project-overlay-title {
+	display: none;
+}
+
+@media screen and (min-width: 1200px) {
+
+	.project-tag-group p {
+		font-size: 15px;
+	}
+
+}
