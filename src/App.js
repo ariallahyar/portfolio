@@ -6,6 +6,7 @@ import About from './components/About';
 import Tech from './components/Tech';
 import FeatureProject from './components/FeatureProjectCard';
 import ProjectCard from './components/ProjectCard';
+import Skills from './components/Skills';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <main>
         <About />
         <Tech />
+
         <section className='section'>
           <div className="container">
             <h2>Featured Projects</h2>
@@ -34,6 +36,9 @@ const App = () => {
             </article>
           </div>
         </section>
+
+        <Skills />
+
       </main>
     </body>
   );
