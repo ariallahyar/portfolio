@@ -2,30 +2,6 @@
 	margin-top: 32px;
 }
 
-.project-image-group {
-	position: relative;
-	display: flex;
-	justify-content: center;
-}
-
-.project-image-group h2 {
-	color: #fff;
-	background-color: transparent;
-	position: absolute;
-	align-self: center;
-	font-weight: 700;
-	margin: 0;
-}
-
-.project-overlay {
-	background-color: rgba(32,54,63,0.3);
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
-
 .project-text-group p {
 	font-family: 'Roboto', sans-serif;
 	margin: 7px auto;
