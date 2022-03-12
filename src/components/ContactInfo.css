@@ -1,0 +1,25 @@
+.contact-text-group {
+	text-align: center;
+	line-height: 24px;
+	margin: 40px 0;
+	text-decoration: none;
+	color: #FFF;
+}
+.contact-text-group h2 {
+	margin-bottom: 24px;
+	background-color: transparent;
+}
+.contact-text-group p {
+	font-weight: bold;
+}
+
+.contact-text-group a {
+	text-decoration: none;
+	font-weight: lighter;
+	color: #FFF;
+}
+
+.contact-text-group a:hover {
+	text-decoration: underline;
+	font-weight: 400;
+}

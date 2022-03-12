@@ -7,6 +7,7 @@ import Tech from './components/Tech';
 import FeatureProject from './components/FeatureProjectCard';
 import ProjectCard from './components/ProjectCard';
 import Skills from './components/Skills';
+import ContactInfo from './components/ContactInfo';
 
 const App = () => {
   return (
@@ -39,7 +40,9 @@ const App = () => {
 
         <Skills />
 
+
       </main>
+      <ContactInfo />
     </body>
   );
 };
