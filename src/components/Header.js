@@ -6,21 +6,21 @@ import github from '../assets/github_white.svg';
 
 const Header = () => {
 	return (
-		<header class="header">
-			<div class="container header-container">
-				<div class="header-socials-groups">
+		<header className="header">
+			<div className="container header-container">
+				<div className="header-socials-groups">
 					<a href="https://www.linkedin.com/in/ariannaallahyar/">
-						<img class="header-social-icon" src={linkedin} alt="LinkedIn logo"></img>
+						<img className="header-social-icon" src={linkedin} alt="LinkedIn logo"></img>
 					</a>
 					<a href="https://github.com/ariallahyar">
-						<img class="header-social-icon" src={github} alt="GitHub logo"></img>
+						<img className="header-social-icon" src={github} alt="GitHub logo"></img>
 					</a>
 				</div>
-				<img class="header-image" src={headshot} alt="headshot of Arianna"></img>
-					<div class="header-text-group">
-						<p class="header-portfolio">PORTFOLIO: <span class="header-name">ARIANNA ALLAHYAR</span></p>
+				<img className="header-image" src={headshot} alt="headshot of Arianna"></img>
+					<div className="header-text-group">
+						<p className="header-portfolio">PORTFOLIO: <span className="header-name">ARIANNA ALLAHYAR</span></p>
 						<h1>web developer</h1>
-						<p class="header-title-extra">with sustainable mobility in focus</p>
+						<p className="header-title-extra">with sustainable mobility in focus</p>
 					</div>
 			</div>
 		</header>

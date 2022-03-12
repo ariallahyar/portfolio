@@ -3,10 +3,10 @@ import './Tech.css'
 
 const Tech = () => {
 	return (
-		<section class="section">
-			<div class="container">
+		<section className="section">
+			<div className="container">
 				<h2>Tech</h2>
-				<p class="tech-text">
+				<p className="tech-text">
 					JavaScript, React, React Hooks, Redux, Node.js, Mongo DB, HTML, CSS, Git
 				</p>
 			</div>

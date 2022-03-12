@@ -4,8 +4,8 @@ import './About.css';
 const About = () => {
 	return (
 		<section class="section">
-			<div class="container">
-				<p><span class="intro-line"></span><span class="intro-dot"></span>
+			<div className="container">
+				<p><span className="intro-line"></span><span className="intro-dot"></span>
 					&nbsp;Hello, I'm Arianna - a curious problem solver with a passion for urban technology, liveable cities and
 					sustainable mobility.
 					In addition to my developer skills, I have nearly 10 years of combined experience in urban planning,
