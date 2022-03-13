@@ -16,10 +16,12 @@
 }
 
 .project-image {
+	border-radius: 5px;
 	object-fit: cover;
 	overflow: hidden;
 }
 .project-overlay {
+	border-radius: 5px;
 	background-color: rgba(32,54,63,0.5);
 	position: absolute;
 	top: 0;

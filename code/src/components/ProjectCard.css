@@ -17,6 +17,7 @@
 .project-tag-group p {
 	color: #fff;
 	background-color: var(--secondary);
+	border-radius: 3px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 11px;
 	line-height: 12px;
@@ -33,6 +34,7 @@
 
 	.project-tag-group p {
 		font-size: 15px;
+		padding: 7px;
 	}
 
 }
