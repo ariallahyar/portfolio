@@ -7,6 +7,8 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
@@ -73,6 +75,8 @@ img {
 .arrow {
 	color: var(--secondary);
 	text-decoration: underline var(--secondary);
+	text-decoration-color: var(--secondary);
+	font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
