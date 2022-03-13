@@ -4,7 +4,7 @@ export const getProjects = () => projects.filter((project) => project.type === "
 const projects = [
   {
     "brief": "GitHub tracker",
-    "title": "GitHub tracker using GitHub's REST API",
+    "title": "GitHub tracker using REST APIs",
     "type": "feature",
     "id": "1",
     "image": "https://imgur.com/McpU7Fr.png",
@@ -15,7 +15,7 @@ const projects = [
   }, 
   {
     "brief": "Weather app",
-    "title": "Weather app built with open weather API",
+    "title": "App built with open weather API",
     "type": "feature",
     "id": "2",
     "image": "https://imgur.com/3rPWShI.png",
