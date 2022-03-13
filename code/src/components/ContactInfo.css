@@ -1,6 +1,7 @@
 .contact-text-group {
 	text-align: center;
-	margin: 40px 0;
+	/* margin: 40px 0; */
+	padding: 40px 0;
 	text-decoration: none;
 	color: #FFF;
 }
