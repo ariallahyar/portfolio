@@ -14,8 +14,12 @@
 	text-align: center;
 }
 
+.contact-text-links {
+	display: flex;
+	justify-content: center;
+}
+
 .contact-text-group a {
-	text-align: center;
 	text-decoration: none;
 	font-weight: lighter;
 	color: #FFF;
