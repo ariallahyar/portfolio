@@ -58,7 +58,7 @@ const projects = [
     "tools": ["HTML", "CSS", "JavaScript"]
   },
   {
-    "title": "Chatbot",
+    "brief": "Chatbot",
     "title": "Chatbot built with JavaScript",
     "type": "normal",
     "id": "6",
