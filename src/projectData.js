@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const getFeatureProjects = () => projects.filter((project) => project.type === "feature");
 export const getProjects = () => projects.filter((project) => project.type === "normal");
 
@@ -9,7 +7,7 @@ const projects = [
     "title": "GitHub tracker using GitHub's REST API",
     "type": "feature",
     "id": "1",
-    "image": "https://imgur.com/yhj4ptK.png",
+    "image": "https://imgur.com/McpU7Fr.png",
     "github": "https://github.com/ariallahyar/project-github-tracker",
     "netlify": "https://githubtracker-ari.netlify.app/",
     "description": "Using GitHub's REST API with authentication to track Technigo projects.",
@@ -20,7 +18,7 @@ const projects = [
     "title": "Weather app built with open weather API",
     "type": "feature",
     "id": "2",
-    "image": "https://imgur.com/Z7hY0cp.png",
+    "image": "https://imgur.com/3rPWShI.png",
     "github": "https://github.com/ariallahyar/project-weather-app",
     "netlify": "https://aurora-weather-app.netlify.app/",
     "description": "Weather forecast for different cities using Open Weather API and working in feature branches.",
@@ -28,7 +26,7 @@ const projects = [
   }, 
   {
     "brief": "Music releases",
-    "title": "Music releases",
+    "title": "Spotify music releases",
     "type": "feature",
     "id": "3",
     "image": "https://imgur.com/80q3ReX.png",
@@ -42,7 +40,7 @@ const projects = [
     "title": "Guess who game",
     "type": "feature",
     "id": "4",
-    "image": "https://imgur.com/PsvwYtE.png",
+    "image": "https://imgur.com/zmRTsow.png",
     "github": "https://github.com/ariallahyar/project-guess-who",
     "netlify": "https://guess-who-aa.netlify.app/",
     "description": "Guess who game that filters characters based on user guesses.",
