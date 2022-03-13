@@ -7,7 +7,7 @@ const Tech = () => {
 			<div className="container">
 				<h2>Tech</h2>
 				<p className="tech-text">
-					JavaScript, React, React Hooks, Redux, Node.js, Mongo DB, HTML, CSS, Git
+					JavaScript, React, HTML, CSS, Git
 				</p>
 			</div>
 		</section>

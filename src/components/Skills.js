@@ -15,7 +15,7 @@ const Skills = () => {
 						<p>Git</p>
 					</div>
 					<div className="skills-group">
-						<h3>Additional skills</h3>
+						<h3>More</h3>
 						<p>Project management</p>
 						<p>Stakeholder management</p>
 						<p>Communication</p>
