@@ -11,9 +11,11 @@
 }
 .contact-text-group p {
 	font-weight: bold;
+	text-align: center;
 }
 
 .contact-text-group a {
+	text-align: center;
 	text-decoration: none;
 	font-weight: lighter;
 	color: #FFF;
