@@ -1,13 +1,12 @@
 import React from 'react'
 import './ProjectCard.css'
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
 	return (
 		<div className="project-text-group">
-			<h3>Chat bot built in JavaScript</h3>
-			<p>Responsive web site using HTML, CSS and JavaScript ES6 for a chat buddy
-				conversation.
-				<a href="#"><span className="arrow">>></span></a>
+			<h3>{props.project.title}</h3>
+			<p>{props.project.description}&nbsp;
+				<a href={props.project.github}><span className="arrow">>></span></a>
 			</p>
 			<div className="project-tag-group">
 				<p>JavaScript</p>

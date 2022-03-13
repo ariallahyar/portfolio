@@ -1,19 +1,17 @@
 import React from 'react'
-import ProjectCard from './ProjectCard';
 import './FeatureProjectCard.css'
-import placeholder from '../assets/pizza.png';
 
-const FeatureProject = () => {
+const FeatureProject = (props) => {
 	return (
 		<div>
 			<div className="project-image-group">
-				<img src={placeholder} alt="project screenshot" />
+				<img src={props.project.image} alt="project screenshot" />
 				<div className="project-overlay"></div>
-				<h2 className="project-overlay-title">Title</h2>
+				<h2 className="project-overlay-title">{props.project.brief}</h2>
 			</div>
-			<ProjectCard />
+			{props.projectCard}
 		</div>
 	);
-};
+;}
 
 export default FeatureProject;

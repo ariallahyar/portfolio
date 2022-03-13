@@ -1,6 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-
 import Header from './components/Header';
 import About from './components/About';
 import Tech from './components/Tech';
@@ -8,6 +5,9 @@ import FeatureProject from './components/FeatureProjectCard';
 import ProjectCard from './components/ProjectCard';
 import Skills from './components/Skills';
 import ContactInfo from './components/ContactInfo';
+import ProjectSection from './components/ProjectSection';
+
+import { getFeatureProjects, getProjects } from './projectData'
 
 const App = () => {
   return (
@@ -16,31 +16,24 @@ const App = () => {
       <main>
         <About />
         <Tech />
+        <ProjectSection
+          featureProjects={getFeatureProjects().map(project => {
+            return (
+              <FeatureProject
+                project={project}
+                projectCard={<ProjectCard project={project} />}
+              />
+            )
+          })}
 
-        <section className='section'>
-          <div className="container">
-            <h2>Featured Projects</h2>
-            <div className="project-group">
-              <article className="project">
-                <FeatureProject />
-              </article>
-              <article className="project">
-                <FeatureProject />
-              </article>
-            </div>
-            <h2 className="no-fill">Other projects</h2>
-            <article className="project">
-              <ProjectCard />
-            </article>
-            <article className="project">
-              <ProjectCard />
-            </article>
-          </div>
-        </section>
+          projects={getProjects().map(project => {
+            return (
+              <ProjectCard project={project} />
+            )
+          })}
+        />
 
         <Skills />
-
-
       </main>
       <ContactInfo />
     </body>
