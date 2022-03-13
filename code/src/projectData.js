@@ -11,7 +11,7 @@ const projects = [
     "github": "https://github.com/ariallahyar/project-github-tracker",
     "netlify": "https://githubtracker-ari.netlify.app/",
     "description": "Using GitHub's REST API with authentication to track Technigo projects.",
-    "tools": ["JavaScript", "HTML", "CSS"]
+    "tags": ["JavaScript", "HTML", "CSS"]
   }, 
   {
     "brief": "Weather app",
@@ -22,7 +22,7 @@ const projects = [
     "github": "https://github.com/ariallahyar/project-weather-app",
     "netlify": "https://aurora-weather-app.netlify.app/",
     "description": "Weather forecast for different cities using Open Weather API and working in feature branches.",
-    "tools": ["HTML", "CSS", "JavaScript"]
+    "tags": ["JavaScript", "HTML", "CSS"]
   }, 
   {
     "brief": "Music releases",
@@ -33,7 +33,7 @@ const projects = [
     "github": "https://github.com/ariallahyar/project-music-releases",
     "netlify": "https://spotifynewreleases2022.netlify.app/",
     "description": "Music releases API built with React, designed as a music streaming platform with icons and hover effects.",
-    "tools": ["React", "JavaScript", "HTML", "CSS"]
+    "tags": ["React", "JavaScript", "HTML", "CSS"]
   },
   {
     "brief": "Guess who game",
@@ -44,7 +44,7 @@ const projects = [
     "github": "https://github.com/ariallahyar/project-guess-who",
     "netlify": "https://guess-who-aa.netlify.app/",
     "description": "Guess who game that filters characters based on user guesses.",
-    "tools": ["JavaScript", "HTML", "CSS"]
+    "tags": ["JavaScript", "HTML", "CSS"]
   },
   {
     "brief": "Business site",
@@ -55,7 +55,7 @@ const projects = [
     "github": "https://github.com/ariallahyar/project-business-site",
     "netlify": "https://supper-society.netlify.app/",
     "description": "Working with HTML form elements and JavaScript accordion.",
-    "tools": ["HTML", "CSS", "JavaScript"]
+    "tags": ["HTML", "CSS", "JavaScript"]
   },
   {
     "brief": "Chatbot",
@@ -66,7 +66,7 @@ const projects = [
     "github": "https://github.com/ariallahyar/project-chatbot",
     "netlify": "https://hello-friend-chatbot.netlify.app/",
     "description": "Chat bot that interacts in friendly conversation based on your mood.",
-    "tools": ["JavaScript", "HTML", "CSS"]
+    "tags": ["HTML", "CSS", "JavaScript"]
   }
 ]
 

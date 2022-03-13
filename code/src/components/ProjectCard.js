@@ -9,9 +9,8 @@ const ProjectCard = (props) => {
 				<a href={props.project.github}><span className="arrow">>></span></a>
 			</p>
 			<div className="project-tag-group">
-				<p>JavaScript</p>
-				<p>HTML</p>
-				<p>CSS</p>
+				{props.project.tags.map(tag =>
+					<p>{tag}</p>)}
 			</div>
 		</div>
 	);
