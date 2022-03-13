@@ -4,10 +4,10 @@ export const getProjects = () => projects.filter((project) => project.type === "
 const projects = [
   {
     "brief": "GitHub tracker",
-    "title": "GitHub tracker using REST APIs",
+    "title": "Project tracker using REST API",
     "type": "feature",
     "id": "1",
-    "image": "https://imgur.com/McpU7Fr.png",
+    "image": "https://imgur.com/tteYBcB.png",
     "github": "https://github.com/ariallahyar/project-github-tracker",
     "netlify": "https://githubtracker-ari.netlify.app/",
     "description": "Using GitHub's REST API with authentication to track Technigo projects.",
