@@ -11,32 +11,34 @@ import { getFeatureProjects, getProjects } from './projectData'
 
 const App = () => {
   return (
-    <body>
+    <div>
       <Header />
       <main>
         <About />
         <Tech />
         <ProjectSection
-          featureProjects={getFeatureProjects().map(project => {
+          featureProjects={getFeatureProjects().map((project, index) => {
             return (
               <FeatureProject
+                key={index}
                 project={project}
                 projectCard={<ProjectCard project={project} />}
               />
             )
           })}
 
-          projects={getProjects().map(project => {
+          projects={getProjects().map((project, index) => {
             return (
-              <ProjectCard project={project} />
+              <ProjectCard
+                key={index}
+                project={project} />
             )
           })}
         />
-
         <Skills />
       </main>
       <ContactInfo />
-    </body>
+    </div>
   );
 };
 

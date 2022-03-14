@@ -8,16 +8,16 @@ const ProjectSection = (props) => {
 				<h2>Featured Projects</h2>
 
 				<div className="project-group">
-					{props.featureProjects.map(project =>
-						<article className="project">
+					{props.featureProjects.map((project, index) =>
+						<article key={index} className="project">
 							{project}
 						</article>)}
 				</div>
 
 				<h2 className="no-fill">Other projects</h2>
 
-				{props.projects.map(project =>
-					<article className="project">
+				{props.projects.map((project, index) =>
+					<article key={index} className="project">
 						{project}
 					</article>)}
 			</div>
