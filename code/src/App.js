@@ -11,7 +11,7 @@ import { getFeatureProjects, getProjects } from "./projectData";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <About />
@@ -33,7 +33,7 @@ const App = () => {
         <Skills />
       </main>
       <ContactInfo />
-    </div>
+    </>
   );
 };
 
