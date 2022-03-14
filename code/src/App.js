@@ -1,13 +1,13 @@
-import Header from './components/Header';
-import About from './components/About';
-import Tech from './components/Tech';
-import FeatureProject from './components/FeatureProjectCard';
-import ProjectCard from './components/ProjectCard';
-import Skills from './components/Skills';
-import ContactInfo from './components/ContactInfo';
-import ProjectSection from './components/ProjectSection';
+import Header from "./components/Header";
+import About from "./components/About";
+import Tech from "./components/Tech";
+import FeatureProject from "./components/FeatureProjectCard";
+import ProjectCard from "./components/ProjectCard";
+import Skills from "./components/Skills";
+import ContactInfo from "./components/ContactInfo";
+import ProjectSection from "./components/ProjectSection";
 
-import { getFeatureProjects, getProjects } from './projectData'
+import { getFeatureProjects, getProjects } from "./projectData";
 
 const App = () => {
   return (
@@ -24,15 +24,10 @@ const App = () => {
                 project={project}
                 projectCard={<ProjectCard project={project} />}
               />
-            )
+            );
           })}
-
           projects={getProjects().map((project, index) => {
-            return (
-              <ProjectCard
-                key={index}
-                project={project} />
-            )
+            return <ProjectCard key={index} project={project} />;
           })}
         />
         <Skills />
